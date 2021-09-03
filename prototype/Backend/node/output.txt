@@ -1,0 +1,24 @@
+https://www.geeksforgeeks.org/java-program-to-read-a-file-to-string/
+--------------------------------
+ 
+ 
+ 
+import java.io.*;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+ 
+public class GFG {
+  
+ public static void main(String args)  throws IOException  {
+  
+  
+ Path fileName  = Path.of( "C:UsersHPDesktopgfg.txt" );
+  
+  
+ String str = Files.readString(fileName);
+  
+ System.out.println(str);
+ }
+}
+

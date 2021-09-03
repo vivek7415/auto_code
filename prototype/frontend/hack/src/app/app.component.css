@@ -1,0 +1,8 @@
+.terminal {width:700px;height:500px;border: 2px solid grey;border-radius:5px;background-color:black;overflow:scroll;box-shadow: 2px 2px 5px 3px rgba(107, 223, 243, 0.2);}
+.ribbon {width:700px;height:30px;border: 1px solid grey;border-radius:3px;background-color:grey;
+padding-top:5px;padding-bottom:5px;}
+.circle {float:left;width:20px;}
+.terminal-title {color:white;padding-left:65px;}
+.terminal-content { width:700px;color:white;padding-left:3px;padding-top:0px;float:left;margin-top:-110px;}
+
+
